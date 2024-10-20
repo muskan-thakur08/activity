@@ -1,4 +1,6 @@
-export default function Blog({ blogData }) {
+import blogData from '../data/BlogDetails.js';
+
+export default function Blog() {
     return (
         <div className="w-full min-h-screen">
             <h1 className="text-center text-4xl text-black mt-6 mb-2 uppercase">Blog</h1>
