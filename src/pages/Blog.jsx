@@ -1,3 +1,5 @@
+import blogData from '../data/BlogDetails.js';
+
 export default function Blog() {
     return (
         <div className="w-full min-h-screen">
