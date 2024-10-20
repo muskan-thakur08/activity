@@ -1,8 +1,8 @@
 import { Route, Routes } from "react-router-dom";
-import ImagesData from "../Components/ImagesData";
-import About from "../Pages/About";
-import Blog from "../Pages/Blog";
-import Contact from "../Pages/Contact";
+import ImagesData from "../components/ImagesData";
+import About from "../pages/About";
+import Blog from "../pages/Blog";
+import Contact from "../pages/Contact";
 
 export default function Routing({images,blogData}){
     return(
