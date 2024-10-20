@@ -1,6 +1,6 @@
 export default function About() {
     return (
-        <div className="min-h-screen text-zinc-600 text-lg">
+        <div className="w-full min-h-screen text-zinc-600 text-lg">
             <p className="mt-8">
                 My name is Ekaterine Mitagvaria, and I come from the beautiful city of Tbilisi, Georgia. Programming is my passion, and I love every moment I spend immersed in it. The joy of creating something from scratch and bringing ideas to life is an absolute pleasure for me.</p>
             <p className="mt-5">
