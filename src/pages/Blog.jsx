@@ -9,7 +9,7 @@ export default function Blog() {
                 {blogData.map((item, idx) => {
                     return <div key={idx} className="cards w-[440px] h-full">
                         <img src={item.img}className="w-full h-[256px] object-fit rounded-lg cursor-pointer hover:opacity-80 object-cover" />
-                        <a href="/" className="text-2xl text-black hover:text-blue-600">{item.heading}</a>
+                        <a href="#" className="text-2xl text-black hover:text-blue-600">{item.heading}</a>
                         <p className="mt-2">{item.para}</p>
                     </div>
                 })}
