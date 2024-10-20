@@ -1,3 +1,4 @@
+import images from "../data/ImageDetails.js";
 export default function ImagesData() {
     return (
         <div className="w-full min-h-screen flex gap-4 flex-wrap mb-20">
